@@ -4,12 +4,12 @@ SCDB is a synthetic dataset developed for concept localization and inspired by t
 
 Download SCDB [here](https://cloud.dfki.de/owncloud/index.php/s/NM6wLXPnCD8CeGw).
 
-If you use this dataset, please consider citing our associated [paper](#):
+If you use this dataset, please consider citing our associated [paper](https://arxiv.org/pdf/2005.01399.pdf):
 ```
     @article{lucieri2020explaining,
         title={Explaining AI-based Decision Support Systems using Concept Localization Maps},
         author={Lucieri, Adriano and Bajwa, Muhammad Naseer and Dengel, Andreas and Ahmed, Sheraz},
-        journal={arXiv preprint arXiv:},
+        journal={arXiv preprint arXiv:2005.01399},
         year={2020}
     }
 ```
