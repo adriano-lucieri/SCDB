@@ -6,11 +6,18 @@ Download SCDB [here](https://cloud.dfki.de/owncloud/index.php/s/NM6wLXPnCD8CeGw)
 
 If you use this dataset, please consider citing our associated [paper](https://arxiv.org/pdf/2005.01399.pdf):
 ```
-    @article{lucieri2020explaining,
-        title={Explaining AI-based Decision Support Systems using Concept Localization Maps},
-        author={Lucieri, Adriano and Bajwa, Muhammad Naseer and Dengel, Andreas and Ahmed, Sheraz},
-        journal={arXiv preprint arXiv:2005.01399},
-        year={2020}
+    @InProceedings{lucieri2020explaining,
+    author="Lucieri, Adriano
+    and Bajwa, Muhammad Naseer
+    and Dengel, Andreas
+    and Ahmed, Sheraz",
+    title="Explaining AI-Based Decision Support Systems Using Concept Localization Maps",
+    booktitle="Neural Information Processing",
+    year="2020",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="185--193",
+    isbn="978-3-030-63820-7"
     }
 ```
 
