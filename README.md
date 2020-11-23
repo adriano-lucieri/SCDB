@@ -43,7 +43,18 @@ C1|Hexagon&Star, <br>Ellipse&Star, <br>Triangle&Ellipse&Starmarker
 C2|Pentagon&Tripod, <br>Star&Tripod, <br>Rectangle&Star&Starmarker
 
 ## Dataset Files
-For each dataset split, label annotations (csv) as well as concept annotations (npy) are available. A separate concept split can be used for CAV training.
+For each dataset split (*train*, *val*, *test*), label annotations (.csv) as well as concept annotations (.npy) are available. A separate concept split can be used for CAV training.
+
+### Label Files
+The .csv files are provided in the form "filepath|label".
+
+### Concept Files
+Concept annotations are provided in the form of binary, multilabel vectors of the size [Nx10], with *N = number of samples*. 
+
+### Segmentation Files
+Each split folder contains a *Segmentation* folder that contains a maximum of 10 concept-specific segmentation maps per sample. The concept's outline is segmented through a circle, covering the complete outline of the shape.
+
+### Dataset Distribution
 
 Split|Datafile|Annotations|Samples
 ---|---|---|:-:
