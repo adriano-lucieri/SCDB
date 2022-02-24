@@ -2,8 +2,6 @@
 
 SCDB is a synthetic dataset developed for concept localization and inspired by the challenges of skin lesion classification using dermatoscopic images. It mimics the complex composition of diagnostic criteria in skin lesions e.g. spatial overlap, providing concept annotations and concept segmentation masks.
 
-Download SCDB [here](https://cloud.dfki.de/owncloud/index.php/s/NM6wLXPnCD8CeGw).
-
 If you use this dataset, please consider citing our associated [paper](https://arxiv.org/pdf/2005.01399.pdf):
 ```
     @InProceedings{lucieri2020explaining,
